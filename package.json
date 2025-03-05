@@ -1,6 +1,12 @@
 {
   "devDependencies": {
     "@types/cypress": "^0.1.6",
-    "cypress": "^14.0.3"
+    "cypress": "^14.0.3",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "multiple-cucumber-html-reporter": "^3.9.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/steps"
   }
 }
